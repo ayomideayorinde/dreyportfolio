@@ -7,7 +7,25 @@ body {
     margin: 0;
     padding: 0;
 }
+.navBar {
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navBar button {
+    background-color: red;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    color: white;
+}
+.navBar a {
+    text-decoration: none;
+    color: grey;
+}
 .logo {
-    width: 100px;
+    width: 120px;
     height: 20px;
 }
